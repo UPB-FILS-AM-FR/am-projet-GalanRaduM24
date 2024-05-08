@@ -4,7 +4,7 @@
 |-|-|
 |`Author` | Your full name
 
-## Description
+## Description - M-bot
 
 ## Motivation
 
