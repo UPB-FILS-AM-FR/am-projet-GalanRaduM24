@@ -62,8 +62,7 @@
 
 <!-- Fill in with appropriate links and link titles -->
 
-[Tutorial 1](https://www.youtube.com/watch?v=wdgULBpRoXk&t=1s&ab_channel=BenEater)
+[ClawPresentation](https://www.youtube.com/watch?app=desktop&v=9xSvRSg7VZA)
+[LCD](https://www.youtube.com/watch?v=s_-nIgo71_w)
 
-[Article 1](https://www.explainthatstuff.com/induction-motors.html)
-
-[Link title](https://projecthub.arduino.cc/)
+[Mbot Kit](https://lurnbot.com/products/mbot-1-1-kit)
