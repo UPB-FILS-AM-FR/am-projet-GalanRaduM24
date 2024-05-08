@@ -5,7 +5,7 @@
 |`Author` | Galan Radu Mihai
 
 ## Description 
-- My Project consists in a robot that can grb objets and also use multiple sensors
+- My Project consists in a robot that can grab objects and also use multiple sensors
 - Makeblock robot kit (Uses 2 motors and a distance sensor)
 - Makeblock clamp claw (Uses 1 motor fow actionating a claw)
 - LCD (normal 2 row i2c LCD for showing information)
