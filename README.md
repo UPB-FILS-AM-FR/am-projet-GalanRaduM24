@@ -12,7 +12,7 @@
 ## Motivation 
 - Implementing a robot with different features features
 
-## Architecture - 
+## Architecture 
 
 ### Block diagram
 
