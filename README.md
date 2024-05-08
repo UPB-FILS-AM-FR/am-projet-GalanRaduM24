@@ -39,9 +39,6 @@
 | Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
 | Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
 
-
-https://www.olx.ro/d/oferta/robot-makeblock-educativ-IDi9T4C.html?gad_source=4&gclid=Cj0KCQjwxeyxBhC7ARIsAC7dS3_MS4BEljGLQPsKTcKZ4SO5L_JLeLj_yU7_X0vocqoQYhYY5hc5oFkaAqYMEALw_wcB&utm_campaign=children-toys-%5Bro%5D-performance-max-with-feed-cpa-romania-np-ads-%5Bd-m%5D&utm_content=&utm_id=20953019695&utm_medium=cpc&utm_source=google
-
 ### Libraries
 
 <!-- This is just an example, fill in the table with your actual components -->
