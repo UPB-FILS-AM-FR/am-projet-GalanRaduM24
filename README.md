@@ -1,14 +1,19 @@
-# Your Project Name
+# M-bot
 
 | | |
 |-|-|
-|`Author` | Your full name
+|`Author` | Galan Radu Mihai
 
-## Description
+## Description 
+- My Project consists in a robot that can grab objects and also use multiple sensors
+- Makeblock robot kit (Uses 2 motors and a distance sensor)
+- Makeblock clamp claw (Uses 1 motor fow actionating a claw)
+- LCD (normal 2 row i2c LCD for showing information)
 
-## Motivation
+## Motivation 
+- Implementing a robot with different features features
 
-## Architecture
+## Architecture 
 
 ### Block diagram
 
@@ -26,10 +31,12 @@
 
 | Device | Usage | Price |
 |--------|--------|-------|
-| Activ Buzzer | Buzzer | [1.5 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
-| Push Button | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
-| Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
-| Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
+| Makeblock M-Bot | Robot | [39.09 USD](https://lurnbot.com/products/mbot-1-1-kit) |
+| Makeblock ClampClaw | Clamp Claw | [49.34 USD](https://www.ebay.com/itm/164763774166?norover=1&mkevt=1&mkrid=711-167022-134087-1&mkcid=2&itemid=164763774166&targetid=295607582760&device=c&mktype=pla&googleloc=1011795&poi=&campaignid=20797276787&mkgroupid=155163399079&rlsatarget=pla-295607582760&abcId=&merchantid=119648210&gad_source=1&gclid=Cj0KCQjwxeyxBhC7ARIsAC7dS39oCInXtvBG4IH2cqkYi16xqXIpzWnOMBzTYvEVfe0y0GU000InjBIaAm8JEALw_wcB) |
+| Adafruit TCS34725 | RGB Sensor | [7.95 USD](https://www.adafruit.com/product/1334) |
+| Adafruit DRV8871  | DC Motor Driver Breakout | [7.50 USD](https://www.adafruit.com/product/3190) |
+| LCD 1602  | Display | [16.34 ron](https://www.optimusdigital.ro/ro/optoelectronice-lcd-uri/2894-lcd-cu-interfata-i2c-si-backlight-albastru.html?gad_source=1&gclid=Cj0KCQjwxeyxBhC7ARIsAC7dS39htfgFEvUUoPI9yNqkE4WZvx3a_p_euAhIuBVSOkLbhWfzMVeu4oEaArfyEALw_wcB) |
+
 
 ### Libraries
 
@@ -55,8 +62,8 @@
 
 <!-- Fill in with appropriate links and link titles -->
 
-[Tutorial 1](https://www.youtube.com/watch?v=wdgULBpRoXk&t=1s&ab_channel=BenEater)
+[ClawPresentation](https://www.youtube.com/watch?app=desktop&v=9xSvRSg7VZA)
 
-[Article 1](https://www.explainthatstuff.com/induction-motors.html)
+[LCD](https://www.youtube.com/watch?v=s_-nIgo71_w)
 
-[Link title](https://projecthub.arduino.cc/)
+[Mbot Kit](https://lurnbot.com/products/mbot-1-1-kit)
