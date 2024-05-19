@@ -62,8 +62,13 @@
 
 <!-- Fill in with appropriate links and link titles -->
 
-[ClawPresentation](https://www.youtube.com/watch?app=desktop&v=9xSvRSg7VZA)
+[Claw - PRESENTATION](https://www.youtube.com/watch?app=desktop&v=9xSvRSg7VZA)
 
-[LCD](https://www.youtube.com/watch?v=s_-nIgo71_w)
+[LCD - TUTORIAL](https://www.youtube.com/watch?v=s_-nIgo71_w)
 
-[Mbot Kit](https://lurnbot.com/products/mbot-1-1-kit)
+[MotorBreakout-DRV8871 - PRESENTATION](https://learn.adafruit.com/adafruit-drv8871-brushed-dc-motor-driver-breakout/overview)
+[MotorBreakout-DRV8871 - TUTORIAL](https://www.youtube.com/watch?v=9Ye1HgJaeVI&t=40s)
+
+[MbotKit - PRESENTATION](https://www.youtube.com/watch?v=ZNcebanW_pQ)
+
+
