@@ -66,7 +66,7 @@
 
 [LCD - TUTORIAL](https://www.youtube.com/watch?v=s_-nIgo71_w)
 
-[MotorBreakout-DRV8871 - PRESENTATION](https://learn.adafruit.com/adafruit-drv8871-brushed-dc-motor-driver-breakout/overview)
+[MotorBreakout-DRV8871 - PRESENTATION](https://learn.adafruit.com/adafruit-drv8871-brushed-dc-motor-driver-breakout/overview) ///
 [MotorBreakout-DRV8871 - TUTORIAL](https://www.youtube.com/watch?v=9Ye1HgJaeVI&t=40s)
 
 [MbotKit - PRESENTATION](https://www.youtube.com/watch?v=ZNcebanW_pQ)
