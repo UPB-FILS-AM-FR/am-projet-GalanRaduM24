@@ -22,7 +22,9 @@
 
 ### Schematic
 
-![Schematic](schematics/kicad_schematic.png)
+![Schematic](Images/mCoreSchematic.jpg)
+![Schematic](Images/mCoreBoard.png)
+
 
 ### Components
 
