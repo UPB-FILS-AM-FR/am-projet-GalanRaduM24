@@ -11,6 +11,15 @@
 - Adafruit DRV8871 DC Motor Driver Breakout (Used for onnecting the claw's motor to the board)
 - LCD (normal 2 row i2c LCD for showing information)
 
+Connexions:
+- -> RJ25_Port4 - Ultrasonic
+- -> RJ25_Port1 - Humidity
+- -> Motor_Interface_M1 - Right_DcMotor
+- -> Motor_Interface_M2 - Left_DcMotor
+- -> SCL, SDA, GND, VCC - LCD
+- -> 9 - MotorBreakout_IN1
+- -> 10 - MotorBreakout_IN2
+
 ## Motivation 
 - Implementing a robot with different features for testing personal skills
 
@@ -27,7 +36,7 @@ Board Info:
 
 ![Board Image](Images/mCoreBoard.png)![Board Image](Images/mCore.png)
 
-# Robot Schematic:
+#### Robot Schematic:
 ![Board Schematic](Images/RobotSchematic.png)
 
 ### Components
