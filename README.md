@@ -18,7 +18,7 @@
 ### Block diagram
 
 <!-- Make sure the path to the picture is correct -->
-![Block Diagram](schematics/block_diagram.png)
+![Block Diagram](images/RobotDiagram(1).png)
 
 ### Schematic
 
