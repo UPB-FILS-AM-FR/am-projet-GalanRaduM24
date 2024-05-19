@@ -22,10 +22,11 @@
 ![Block Diagram](Images/RobotDiagram.png)
 
 ### Schematic
-
+Board Info:
 ![Board Schematic](Images/mCoreSchematic.png)
 
 ![Board Image](Images/mCoreBoard.png)
+![Board Image](Images/mCore.png)
 
 
 ### Components
