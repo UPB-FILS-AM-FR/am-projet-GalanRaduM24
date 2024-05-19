@@ -72,6 +72,8 @@ Board Info:
 [MotorBreakout-DRV8871 - PRESENTATION](https://learn.adafruit.com/adafruit-drv8871-brushed-dc-motor-driver-breakout/overview) ///
 [MotorBreakout-DRV8871 - TUTORIAL](https://www.youtube.com/watch?v=9Ye1HgJaeVI&t=40s)
 
+[MbotKit - OFFICIAL SITE](https://www.makeblock.com/pages/mbot-robot-kit)
 [MbotKit - PRESENTATION](https://www.youtube.com/watch?v=ZNcebanW_pQ)
+
 
 
