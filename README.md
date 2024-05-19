@@ -27,6 +27,8 @@ Board Info:
 
 ![Board Image](Images/mCoreBoard.png)![Board Image](Images/mCore.png)
 
+# Robot Schematic:
+![Board Schematic](Images/RobotSchematic.png)
 
 ### Components
 
