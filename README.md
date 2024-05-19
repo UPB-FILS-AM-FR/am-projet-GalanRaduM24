@@ -44,8 +44,8 @@
 
 | Library | Description | Usage |
 |---------|-------------|-------|
-| [lib-name1](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
-| [lib-name2](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
+| [Makeblock Drive]([link-to-lib](https://github.com/nbourre/Makeblock-Libraries)) | Use to drive all devices provided by Makeblock company.
+This library allows an Arduino board to control all devices provided by Makeblock company. | Used for commanding the 2 motors and the Ultrasonic and Humidity sensors  |
 
 ## Log
 
