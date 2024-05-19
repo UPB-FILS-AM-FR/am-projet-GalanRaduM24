@@ -23,9 +23,9 @@
 
 ### Schematic
 
-![Schematic](Images/mCoreSchematic.jpg)
+[Board Schematic](Images/mCoreSchematic.png)
 
-![Schematic](Images/mCoreBoard.png)
+[Board Image](Images/mCoreBoard.png)
 
 
 ### Components
