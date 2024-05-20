@@ -2,12 +2,12 @@
 
 | | |
 |-|-|
-|`Author` | Galan Radu Mihai
+|`Author` | Galan Radu-Mihai
 
 ## Description 
 - My Project consists in a robot that can grab objects and also use multiple sensors
 - Makeblock robot kit (Uses 2 motors a distance sensor and a humidity sensor. All the components are controlled using an IR remote)
-- Makeblock clamp claw (Uses 1 motor fow actionating a claw)
+- Makeblock clamp claw (Uses 1 motor for operating a claw)
 - Adafruit DRV8871 DC Motor Driver Breakout (Used for onnecting the claw's motor to the board)
 - LCD (normal 2 row i2c LCD for showing information)
 - //TO be added // RGB sensor TCS34725
