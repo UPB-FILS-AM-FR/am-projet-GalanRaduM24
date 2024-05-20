@@ -10,13 +10,14 @@
 - Makeblock clamp claw (Uses 1 motor fow actionating a claw)
 - Adafruit DRV8871 DC Motor Driver Breakout (Used for onnecting the claw's motor to the board)
 - LCD (normal 2 row i2c LCD for showing information)
+- //TO be added // RGB sensor TCS34725
 
 Connexions:
 - -> RJ25_Port4 - Ultrasonic
 - -> RJ25_Port1 - Humidity
 - -> Motor_Interface_M1 - Right_DcMotor
 - -> Motor_Interface_M2 - Left_DcMotor
-- -> SCL, SDA, GND, VCC - LCD
+- -> SCL, SDA, GND, VCC - LCD (0x27 address)
 - -> 9 - MotorBreakout_IN1
 - -> 10 - MotorBreakout_IN2
 
@@ -88,6 +89,10 @@ Board Info:
 
 [MbotKit - OFFICIAL SITE](https://www.makeblock.com/pages/mbot-robot-kit) ///
 [MbotKit - PRESENTATION](https://www.youtube.com/watch?v=ZNcebanW_pQ)
+
+[Makeblock_mCore_Board - INFO](https://support.makeblock.com/hc/en-us/articles/4412894402967-mCore-Main-Control-Board-of-mBot) /// 
+[Makeblock_MeUltrasonic - INFO](https://education.makeblock.com/help/me-ultrasonic-sensor/) /// 
+[Makeblock_IRremote - INFO](https://education.makeblock.com/help/cyberpi-series-ir-remote-control/)
 
 
 
