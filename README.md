@@ -5,19 +5,22 @@
 |`Author` | Galan Radu-Mihai
 
 ## Description 
-- My Project consists in a robot that can grab objects and also use multiple sensors
+- My Project consists in a robot that can grab objects and also use multiple sensors. The robot can be controlled using an IR remote
 - Makeblock robot kit (Uses 2 motors a distance sensor and a humidity sensor. All the components are controlled using an IR remote)
 - Makeblock clamp claw (Uses 1 motor for operating a claw)
-- Adafruit DRV8871 DC Motor Driver Breakout (Used for onnecting the claw's motor to the board)
+- Adafruit DRV8871 DC Motor Driver Breakout (Used for connecting the claw's motor to the board)
+- Adafruit TCS34725 RGB Color Sensor (Used for detecting the color of the ground)
 - LCD (normal 2 row i2c LCD for showing information)
-- //TO be added // RGB sensor TCS34725
+- Feature: it can play ImperialMarch
 
 Connexions:
-- -> RJ25_Port4 - Ultrasonic
+- -> RJ25_Port3 - Ultrasonic
 - -> RJ25_Port1 - Humidity
 - -> Motor_Interface_M1 - Right_DcMotor
 - -> Motor_Interface_M2 - Left_DcMotor
 - -> SCL, SDA, GND, VCC - LCD (0x27 address)
+- -> SCL, SDA, GND, VCC - RGB sensor (0x29 address)
+- -> A0, A1 - Motor Driver Breakout
 - -> 9 - MotorBreakout_IN1
 - -> 10 - MotorBreakout_IN2
 
@@ -63,6 +66,9 @@ Board Info:
 | [Wire](https://github.com/arduino/ArduinoCore-avr/blob/master/libraries/Wire/src/Wire.h) [Refrence](https://www.arduino.cc/reference/en/libraries/makeblockdrive/) | This library allows you to communicate with I2C devices, a feature that is present on all Arduino boards. I2C is a very common protocol, primarly used for reading/sending data to/from external I2C components.  | Used for handeling the connection with the 2 I2C devices  |
 | [SoftwareSerial](https://github.com/arduino/ArduinoCore-avr/blob/master/libraries/SoftwareSerial/src/SoftwareSerial.h) [Refrence](https://docs.arduino.cc/learn/built-in-libraries/software-serial/) | The SoftwareSerial library allows serial communication on other digital pins of an Arduino board, using software to replicate the functionality (hence the name "SoftwareSerial").  | Used for enabeling the serial ports |
 | [LiquidCrystal](https://github.com/arduino-libraries/LiquidCrystal) [Refrene](https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/) | This library allows an Arduino/Genuino board to control LiquidCrystal displays (LCDs) based on the Hitachi HD44780 (or a compatible) chipset, which is found on most text-based LCDs. The library works with in either 4 or 8 bit mode (i.e. using 4 or 8 data lines in addition to the rs, enable, and, optionally, the rw control lines). |  Used for controlling the LCD |
+| [TimerFreeTone](https://bitbucket.org/teckel12/arduino-timer-free-tone/downloads/) [Refrene](https://forum.arduino.cc/t/timerfreetone-library-v1-5-play-tones-without-timers-and-therefore-no-conflicts/229448) | Play tones without timers and therefore no conflicts |  Used for contolling the buzzer without creating a conflict between tone() and the IR library |
+
+
 
 ## Log
 
