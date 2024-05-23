@@ -20,9 +20,8 @@ Connexions:
 - -> Motor_Interface_M2 - Left_DcMotor
 - -> SCL, SDA, GND, VCC - LCD (0x27 address)
 - -> SCL, SDA, GND, VCC - RGB sensor (0x29 address)
-- -> A0, A1 - Motor Driver Breakout
-- -> 9 - MotorBreakout_IN1
-- -> 10 - MotorBreakout_IN2
+- -> A0 - MotorBreakout_GND
+- -> A1 - MotorBreakout_VM
 
 ## Motivation 
 - Implementing a robot with different features for testing personal skills
