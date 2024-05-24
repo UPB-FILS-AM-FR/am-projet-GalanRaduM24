@@ -41,6 +41,9 @@ Board Info:
 #### Robot Schematic:
 ![Board Schematic](Images/RobotSchematic.png)
 
+#### Demo:
+![Demo](Images/RobotPicture.jpg)
+
 ### Components
 
 
