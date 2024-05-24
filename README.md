@@ -43,6 +43,7 @@ Board Info:
 
 #### Demo:
 ![Demo](Images/RobotPicture.jpg)
+![Demo](Images/Demo.mp4)
 
 ### Components
 
