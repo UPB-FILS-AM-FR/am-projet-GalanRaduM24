@@ -43,7 +43,9 @@ Board Info:
 
 #### Demo:
 ![Demo](Images/RobotPicture.jpg)
-https://github.com/UPB-FILS-AM-FR/am-projet-GalanRaduM24/assets/135463995/011315fc-8c8e-473a-a9cf-180aa9b56313
+
+https://github.com/UPB-FILS-AM-FR/am-projet-GalanRaduM24/assets/135463995/cefd2ef0-e89f-4b88-8a38-bd1617385a66
+
 
 ### Components
 
