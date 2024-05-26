@@ -6,12 +6,12 @@
 
 ## Description 
 - My Project consists in a robot that can grab objects and also use multiple sensors. The robot can be controlled using an IR remote
-- Makeblock robot kit (Uses 2 motors a distance sensor and a humidity sensor. All the components are controlled using an IR remote)
+- Makeblock robot kit (Uses 2 motors a distance sensor and a humidity sensor + rgb leds and a piezo buzzer. All the components are controlled using an IR remote)
 - Makeblock clamp claw (Uses 1 motor for operating a claw)
 - Adafruit DRV8871 DC Motor Driver Breakout (Used for connecting the claw's motor to the board)
 - Adafruit TCS34725 RGB Color Sensor (Used for detecting the color of the ground)
 - LCD (normal 2 row i2c LCD for showing information)
-- Feature: it can play ImperialMarch
+- Feature: it can play ImperialMarch :)
 
 Connexions:
 - -> RJ25_Port3 - Ultrasonic
@@ -22,6 +22,8 @@ Connexions:
 - -> SCL, SDA, GND, VCC - RGB sensor (0x29 address)
 - -> A0 - MotorBreakout_GND
 - -> A1 - MotorBreakout_VM
+- -> 8 - Buzzer
+- -> 7 - RGB
 
 ## Motivation 
 - Implementing a robot with different features for testing personal skills
