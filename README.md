@@ -82,11 +82,11 @@ https://github.com/UPB-FILS-AM-FR/am-projet-GalanRaduM24/assets/135463995/cefd2e
 <!-- write every week your progress here -->
 
 ### Week 6 - 12 May
-
+I bought the parts i didn t have(Lcd, cabels) and fixed some hardware
 ### Week 7 - 19 May
-
+Started testing some code. SPOILER - It did not work in the begining
 ### Week 20 - 26 May
-
+Fixed the last issues and arranged the components(sticked them toghether with double tape)
 
 ## Reference links
 
