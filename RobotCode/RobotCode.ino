@@ -59,7 +59,6 @@ MeRGBLed led(7, 2);
 #define NOTE_G5S 831
 #define NOTE_A5  880
 
-// Set the LCD address to 0x27 for a 16 chars and 2 line display
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 int displayFunction = 0;
@@ -75,12 +74,11 @@ void setup() {
     Serial.println("Found sensor");
   } else {
     Serial.println("No TCS34725 found ... check your connections");
-    while (1); // Halt the program
+    while (1);
   }
   
   // Initialize the LCD
   lcd.init();
-  // Turn on the backlight
   lcd.backlight();
 
   pinMode(MOTOR_IN1, OUTPUT);
@@ -145,21 +143,21 @@ void loop() {
     Serial.println("Right");
     move(4, 100);
   } else {
-    move(0, 0); // Stop if no key is pressed
+    move(0, 0); 
   }
 
   if (ir.keyPressed(GRAB_KEY)) {
     analogWrite(MOTOR_IN1, 0);
     analogWrite(MOTOR_IN2, 255);
     Serial.println("Grab");
-    analogWrite(MOTOR_IN2, 0); // Stop motor after action
+    analogWrite(MOTOR_IN2, 0); 
   }
 
   if (ir.keyPressed(RELEASE_KEY)) {
     analogWrite(MOTOR_IN2, 0);
     analogWrite(MOTOR_IN1, 255);
     Serial.println("Release");
-    analogWrite(MOTOR_IN1, 0); // Stop motor after action
+    analogWrite(MOTOR_IN1, 0); 
   }
 
   if (ir.keyPressed(Ultrasonic_KEY)) {
@@ -244,7 +242,6 @@ void loop() {
   }
 
   if (displayLocked) {
-    // Update the display based on the current function
     switch (displayFunction) {
       case 2:
         clearFirstRow();
@@ -277,6 +274,7 @@ void loop() {
 
 }
 
+//Clear LCD
 void clearSecondRow() {
   lcd.setCursor(0, 1);
   lcd.print("                ");
@@ -286,6 +284,7 @@ void clearFirstRow() {
   lcd.setCursor(0, 0);
   lcd.print("                ");
 }
+
 
 void setDisplay(int function) {
   switch (function) {
@@ -339,6 +338,7 @@ void move(int direction, int speed) {
   motor_10.run((10) == M1 ? -(rightSpeed) : (rightSpeed));
 }
 
+//Get Ultrasonic
 void ultrasonic() {
   Serial.print("Distance : ");
   Serial.print(ultraSensor.distanceCm());
@@ -350,6 +350,7 @@ void ultrasonic() {
 
 }
 
+//Get temperature
 void temperature() {
   Serial.print(", Temperature (oC) = ");
   Serial.println(humiture.getTemperature());
@@ -361,6 +362,7 @@ void temperature() {
   humiture.update();
 }
 
+//Get humidity
 void humidity() {
   Serial.print("Humidity (%) = ");
   Serial.println(humiture.getHumidity());
@@ -450,7 +452,7 @@ void image() {
 }
 
 void playImperialMarch() {
-  delay(100);
+  delay(1000);
   // Frequencies of the melody notes in Hertz and their durations in milliseconds
   int melody[][2] = {
     {440, 500}, {440, 500}, {698, 500}, {523, 350}, {440, 150}, {698, 500}, {523, 350}, {440, 150},
@@ -460,18 +462,43 @@ void playImperialMarch() {
     {698, 500}, {698, 350}, {659, 150}, {698, 500}, {554, 350}, {466, 150}, {698, 500}, {523, 350}, {440, 150}
   };
 
-  // Play the melody
+  // Movement commands corresponding to each note
+  int movements[] = {
+    1, 0, 0, 0, 0, 0, 0, 0,
+    2, 0, 3, 0, 2, 0, 3, 0, 
+    2, 0, 3, 0, 2, 0, 3, 0, 
+    2, 0, 3, 0, 2, 0, 3, 0, 
+    2, 0, 3, 0, 2, 0, 3, 0, 
+    2, 0, 3, 0, 2, 0, 3, 0, 
+    2, 0, 3, 0, 2, 0, 3, 0, 
+    2, 0, 3, 0, 2, 0, 3, 0,
+  };
+
+  // Play the melody and execute corresponding movements
   for (int i = 0; i < sizeof(melody) / sizeof(melody[0]); i++) {
     int noteFrequency = melody[i][0];
     int noteDuration = melody[i][1];
-    
+
+    // Play note
     if (noteFrequency == 0) {
-      delay(noteDuration); // Rest note
+      delay(noteDuration); 
     } else {
       TimerFreeTone(SPEAKER_PIN, noteFrequency, noteDuration);
-      delay(noteDuration * 1.10); // Shorter pause between notes for smoother melody
+      delay(noteDuration * 0.7);
+    }
+
+    // Execute movement command
+    int movement = movements[i];
+    if (movement == 1) { 
+      move(2, 100);
+    } else if (movement == 2) { 
+      move(3, 100);
+      move(4, 100);
+    } else if (movement == 3) { 
+      move(4, 100);
+      move(3, 100);
     }
   }
+
+  move(0, 0);
 }
-
-
